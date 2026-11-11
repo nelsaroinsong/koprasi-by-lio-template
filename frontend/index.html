@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koperasi - Pertanian Berkelanjutan & Modern</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets Terstruktur -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. HEADER / NAVBAR (Sesuai Referensi Visual: Dark Pill di Tengah & Sign Up di Kanan)
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      
+      <!-- Brand Logo (4 Rounded Dots Grid + Brand Name) -->
+      <a href="index.html" class="site-logo" aria-label="Halaman Beranda Koperasi">
+        <div class="logo-icon-grid" aria-hidden="true">
+          <div class="logo-dot"></div>
+          <div class="logo-dot"></div>
+          <div class="logo-dot"></div>
+          <div class="logo-dot"></div>
+        </div>
+        <span>Koperasi</span>
+      </a>
+
+      <!-- Dark Pill Navigation Bar (Tengah) -->
+      <nav class="nav-pill-wrapper" aria-label="Navigasi Utama">
+        <div class="nav-pill-container">
+          <a href="index.html" class="active" aria-current="page">Beranda</a>
+          <a href="toko.html">Toko Online</a>
+          <a href="sewa.html">Sewa Alat</a>
+        </div>
+      </nav>
+
+      <!-- Aksi Kanan: Daftar / Masuk -->
+      <div class="header-actions">
+        <a href="register.html" class="btn-header-signup">Daftar</a>
+        <button class="mobile-menu-toggle" aria-label="Buka Menu Navigasi" type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       2. HERO SECTION (Persis Mengikuti Gambar: Tag Hijau, Judul Besar, +, Panorama)
+       ========================================================================= -->
+  <main>
+    <section class="hero-section">
+      <!-- Grid Garis Putus-Putus Samar di Latar Belakang -->
+      <div class="hero-guidelines" aria-hidden="true">
+        <div class="guide-line"></div>
+        <div class="guide-line"></div>
+        <div class="guide-line"></div>
+      </div>
+
+      <!-- 5 Sparkle 4-Pointed Stars Mengikuti Posisi Persis di Gambar Referensi -->
+      <span class="sparkle-cross cross-1" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 0 C12.7 8.5 15.5 11.3 24 12 C15.5 12.7 12.7 15.5 12 24 C11.3 15.5 8.5 12.7 0 12 C8.5 11.3 11.3 8.5 12 0 Z"/></svg>
+      </span>
+      <span class="sparkle-cross cross-2" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 0 C12.7 8.5 15.5 11.3 24 12 C15.5 12.7 12.7 15.5 12 24 C11.3 15.5 8.5 12.7 0 12 C8.5 11.3 11.3 8.5 12 0 Z"/></svg>
+      </span>
+      <span class="sparkle-cross cross-3" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 0 C12.7 8.5 15.5 11.3 24 12 C15.5 12.7 12.7 15.5 12 24 C11.3 15.5 8.5 12.7 0 12 C8.5 11.3 11.3 8.5 12 0 Z"/></svg>
+      </span>
+      <span class="sparkle-cross cross-4" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 0 C12.7 8.5 15.5 11.3 24 12 C15.5 12.7 12.7 15.5 12 24 C11.3 15.5 8.5 12.7 0 12 C8.5 11.3 11.3 8.5 12 0 Z"/></svg>
+      </span>
+      <span class="sparkle-cross cross-5" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 0 C12.7 8.5 15.5 11.3 24 12 C15.5 12.7 12.7 15.5 12 24 C11.3 15.5 8.5 12.7 0 12 C8.5 11.3 11.3 8.5 12 0 Z"/></svg>
+      </span>
+
+      <div class="hero-content">
+        <!-- Judul Besar Hero -->
+        <h1 class="hero-title">
+          Perjalanan Menuju<br>Kesempurnaan.
+        </h1>
+
+        <!-- Subtitle Hero -->
+        <p class="hero-subtitle">
+          Pelopor Pertanian Berkelanjutan. Dari Benih Hingga Panen, Kami Merawat<br>Kualitas Dengan Sepenuh Hati Dan Ketepatan.
+        </p>
+
+        <!-- CTA Pill Hitam dengan Panah -->
+        <div class="hero-cta">
+          <a href="login.html" class="btn btn-dark">
+            <span>Bergabung Bersama Kami</span>
+            <span class="icon-arrow">&rarr;</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Foto Panorama Ladang Pertanian Luas Full-Bleed (Edge-to-Edge) -->
+      <div class="hero-panorama-wrapper">
+        <img 
+          src="assets/hero-farmland.jpg" 
+          alt="Pemandangan udara lahan pertanian hijau nan subur" 
+          class="hero-panorama-img"
+          loading="eager"
+        >
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. BENTO SHOWCASE GRID (Toko Online Hasil Tani & Sewa Alat Koperasi)
+         ========================================================================= -->
+    <section class="bento-section" id="about">
+      <div class="container">
+        <div class="bento-container">
+          
+          <!-- Sisi Kiri: Teks Fokus Toko Online & Sewa Alat Koperasi -->
+          <div class="bento-text-side">
+            <h2 class="bento-title">Toko Hasil <span class="font-tani-accent">Tani</span> & Sewa Alat Koperasi.</h2>
+            <p class="bento-desc">
+              Belanja hasil panen segar langsung dari petani anggota dengan harga adil, sekaligus sewa alat mesin pertanian (Alsintan) modern untuk mendukung produktivitas lahan Anda.
+            </p>
+          </div>
+
+          <!-- Sisi Kanan: 4 Kartu Foto Kolase Landscape 2x2 (Terhubung ke Toko & Sewa Alat) -->
+          <div class="bento-photo-grid">
+            <!-- Foto 1: Sewa Traktor & Alsintan -->
+            <a href="sewa.html" class="bento-card" aria-label="Lihat Katalog Sewa Traktor di Koperasi">
+              <img 
+                src="assets/bento-tractor.jpg" 
+                alt="Traktor pertanian modern sedang membajak lahan untuk layanan sewa alsintan koperasi" 
+                loading="lazy"
+              >
+            </a>
+
+            <!-- Foto 2: Sewa Drone Penyemprot -->
+            <a href="sewa.html" class="bento-card" aria-label="Lihat Katalog Sewa Drone Penyemprot di Koperasi">
+              <img 
+                src="assets/bento-drone.jpg" 
+                alt="Drone penyemprot pertanian beroperasi di atas sawah hijau" 
+                loading="lazy"
+              >
+            </a>
+
+            <!-- Foto 3: Toko Online Sayuran & Buah Segar -->
+            <a href="toko.html" class="bento-card" aria-label="Buka Toko Online Sayur dan Buah Segar Koperasi">
+              <img 
+                src="assets/bento-market.jpg" 
+                alt="Peti kayu berisi cabai merah, tomat, sawi, dan alpukat segar hasil panen petani koperasi" 
+                loading="lazy"
+              >
+            </a>
+
+            <!-- Foto 4: Toko Online Beras Organik & Bahan Pokok -->
+            <a href="toko.html" class="bento-card" aria-label="Buka Toko Online Beras Organik dan Pangan Koperasi">
+              <img 
+                src="assets/bento-rice.jpg" 
+                alt="Karung goni beras organik bersama buah dan sayuran segar di toko koperasi" 
+                loading="lazy"
+              >
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       6. FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-col">
+          <div class="site-logo" style="margin-bottom: 1rem;">
+            <div class="logo-icon-grid" aria-hidden="true">
+              <div class="logo-dot"></div>
+              <div class="logo-dot"></div>
+              <div class="logo-dot"></div>
+              <div class="logo-dot"></div>
+            </div>
+            <span>Koperasi</span>
+          </div>
+          <p style="font-size: 0.875rem; color: #6B7280; line-height: 1.6; max-width: 320px;">
+            Platform ekosistem agritech & koperasi modern untuk memberdayakan petani lokal melalui teknologi dan akses pasar transparan.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Hubungi Koperasi</h4>
+          <ul>
+            <li style="color: #6B7280; font-size: 0.875rem;">Jl. Raya Agrowisata No. 88, Desa Sukamaju</li>
+            <li style="color: #6B7280; font-size: 0.875rem;">WhatsApp: +62 812-3456-7890</li>
+            <li style="color: #6B7280; font-size: 0.875rem;">Email: kontak@koperasitani.id</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Koperasi Tani Makmur. Seluruh hak cipta dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
